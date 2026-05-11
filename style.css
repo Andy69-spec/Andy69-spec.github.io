@@ -230,8 +230,108 @@ nav a:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(56, 189, 248, 0.3);
 }
+/* --- SECTION EXPERTISE --- */
+.skills-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
 
-/* --- FOOTER --- */
+.skill-category {
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--card-border);
+    transition: var(--transition);
+}
+
+.skill-category:hover {
+    border-color: var(--primary);
+}
+
+.skill-category h3 {
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--primary);
+}
+
+/* Hard Skills - Progress Bars */
+.skill-item {
+    margin-bottom: 20px;
+}
+
+.skill-item span {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.progress-bar {
+    background: #334155;
+    height: 8px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    background: linear-gradient(to right, var(--primary), var(--primary-dark));
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* Gestion de Projet - List */
+.skill-list {
+    list-style: none;
+}
+
+.skill-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+    color: var(--text-dim);
+}
+
+.skill-list i {
+    color: var(--primary);
+    font-size: 1.1rem;
+}
+
+/* Soft Skills - Tags */
+.soft-skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.soft-tag {
+    background: rgba(56, 189, 248, 0.05);
+    border: 1px solid var(--card-border);
+    color: var(--text);
+    padding: 8px 16px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.soft-tag:hover {
+    background: var(--primary);
+    color: var(--bg);
+    font-weight: 600;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .skills-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
 footer {
     text-align: center;
     padding: 60px;
