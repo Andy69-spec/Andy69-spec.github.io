@@ -273,9 +273,9 @@ footer {
     font-size: 0.85rem;
 }
 
-.contact-details-final { text-align: left; display: flex; flex-direction: column; gap: 10px; }
+.contact-details-final { text-align: center; display: flex; flex-direction: column; gap: 10px; }
 
-.footer-socials a { color: #fff; text-decoration: none; margin-bottom: 10px; display: block; text-align: right; }
+.footer-socials a { color: #fff; text-decoration: none; margin-bottom: 10px; display: block; text-align: center; }
 
 
 @media (max-width: 900px) {
