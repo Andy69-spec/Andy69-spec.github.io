@@ -23,14 +23,14 @@ body {
     overflow-x: hidden;
 }
 
-/* --- EFFET DE GRAIN (Texture Pro) --- */
+
 .grain {
     position: fixed; top: 0; left: 0; width: 100%; height: 100%;
     background-image: url('https://grainy-gradients.vercel.app/noise.svg');
     opacity: 0.03; pointer-events: none; z-index: 9999;
 }
 
-/* --- NAVIGATION --- */
+
 nav {
     position: fixed;
     top: 0;
@@ -72,7 +72,7 @@ nav {
     color: var(--primary) !important;
 }
 
-/* --- BENTO HERO SECTION --- */
+
 .hero-section {
     padding: 140px 5% 60px;
     max-width: 1400px;
@@ -142,7 +142,7 @@ nav {
 
 .phone-hero { color: var(--text-dim); font-size: 0.9rem; }
 
-/* --- EXPERTISE (COMPÉTENCES) --- */
+
 .section { padding: 80px 5%; max-width: 1400px; margin: 0 auto; }
 
 .section-label {
@@ -208,7 +208,7 @@ nav {
     color: var(--primary);
 }
 
-/* --- PROJECTS LIST --- */
+
 .project-row {
     display: flex;
     justify-content: space-between;
@@ -245,7 +245,7 @@ nav {
     background: rgba(0, 242, 255, 0.05);
 }
 
-/* --- FOOTER --- */
+
 footer {
     border-top: 1px solid var(--border);
     padding: 100px 5% 40px;
@@ -277,7 +277,7 @@ footer {
 
 .footer-socials a { color: #fff; text-decoration: none; margin-bottom: 10px; display: block; text-align: right; }
 
-/* --- RESPONSIVE --- */
+
 @media (max-width: 900px) {
     .bento-grid { grid-template-columns: 1fr; }
     .bio-card h2 { font-size: 2.2rem; }
