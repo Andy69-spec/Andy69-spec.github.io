@@ -1,10 +1,9 @@
 :root {
-    /* Palette Midnight Professional (Optimisée) */
-    --primary: #00f2ff;         /* Cyan néon pour l'aspect futuriste */
+       --primary: #00f2ff;       
     --primary-dark: #0284c7;   
-    --bg: #050505;             /* Noir pur pour le contraste Premium */
-    --card-bg: #0d0d0d;         /* Cartes légèrement plus claires */
-    --border: #1a1a1a;         /* Bordures très fines */
+    --bg: #050505b2;            
+    --card-bg: #0d0d0da0;         
+    --border: #1a1a1a62;         
     --text: #ffffff;           
     --text-dim: #a0a0a0;       
     --transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
