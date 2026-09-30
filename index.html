@@ -6,6 +6,7 @@
 <title>Andy Heriniavo | Portfolio</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
 <style>
+  img.avatar{object-fit:cover;background:none;display:block;border:3px solid var(--surface);box-shadow:0 0 0 2px var(--accent)}
 :root{--bg:#f7f8fa;--surface:#fff;--text:#0f172a;--muted:#5b6478;--line:#e3e7ee;--accent:#4f46e5;--accent-soft:#eef0ff;--shadow:0 1px 2px rgba(15,23,42,.05),0 8px 24px rgba(15,23,42,.06);
 box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1020;--surface:#131a2e;--text:#eef1f8;--muted:#98a2b8;--line:#232c47;--accent:#8b93ff;--accent-soft:#1c2347;--shadow:0 8px 24px rgba(0,0,0,.35)}}
@@ -88,9 +89,7 @@ footer p{color:var(--muted)}
     <div class="cta"><a href="#projets" class="btn">Voir mes projets</a><a href="#contact" class="btn ghost">Me contacter</a></div>
   </div>
   <aside class="card profile">
-    <div class="img-wrapper">
-                        <img src="sariko.png" alt="Andy Heriniavo" onerror="this.src='https://via.placeholder.com/400x400/00f2ff/000000?text=AH'">
-                    </div>
+    <img class="avatar" src="sariko.png" alt="Andy Heriniavo">
     <h3>RANDRIAMIARANTSOA Andy Heriniavo</h3>
     <div class="role">Étudiant en L3 Informatique</div>
     <div class="loc">📍 Antananarivo, Madagascar</div>
